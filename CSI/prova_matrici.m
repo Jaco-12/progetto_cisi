@@ -49,6 +49,6 @@ D = 0;
 
 Sys= ss(A,B,C,D);
 
-
+Gs = zpk(Sys);
 
 
